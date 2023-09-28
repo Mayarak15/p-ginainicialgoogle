@@ -19,18 +19,27 @@ else{
 }
   
 }
+let tema = localStorage.getItem('estilo');
+
+
 function laranja(){
-    body.style.background = "orange"
+    body.style.background = "orange";
+    caica = document.querySelector("#caixaaa").style.border = "none";
+    localStorage.estilo = "1";
 }
 function rosa(){
-  body.style.background = "pink"
+  body.style.background = "pink";
+  caica = document.querySelector("#caixaaa").style.border = "none"
 }
 function marrom(){
-  body.style.background = "brown"
+  body.style.background = "brown";
+  caica = document.querySelector("#caixaaa").style.border = "none"
 }
 function roxo(){
-  body.style.background = "purple"
+  body.style.background = "purple";
+  caica = document.querySelector("#caixaaa").style.border = "none"
 }
 function branco(){
-  body.style.background = "white"
+  body.style.background = "white";
+  caica = document.querySelector("#caixaaa").style.border = "1px solid black" 
 }
