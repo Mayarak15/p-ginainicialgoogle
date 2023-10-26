@@ -20,19 +20,19 @@ else{
   
 }
 
-let tema = localStorage.getItem('estilo');
 
-if(localStorage.estilo === "1"){
+
+
 function laranja(){
     body.style.background = "orange";
     caica = document.querySelector("#caixaaa").style.border = "none";
-    localStorage.estilo = "1";
+    
 }
-}
+
 function rosa(){
   body.style.background = "pink";
   caica = document.querySelector("#caixaaa").style.border = "none";
-  localStorage.estilo = "2";
+  
 }
 function marrom(){
   body.style.background = "brown";
@@ -42,10 +42,10 @@ function marrom(){
 function roxo(){
   body.style.background = "purple";
   caica = document.querySelector("#caixaaa").style.border = "none";
-  localStorage.estilo = "4";
+
 }
 function branco(){
   body.style.background = "white";
   caica = document.querySelector("#caixaaa").style.border = "1px solid black";
-  localStorage.estilo = "5"; 
 }
+
