@@ -16,3 +16,6 @@ cursor: pointer;
 .corees:hover{
   cursor: pointer;
 }
+body{
+  background-color: chocolate;
+}

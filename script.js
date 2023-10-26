@@ -1,4 +1,4 @@
-body = document.querySelector("#bodyy");
+document.body
 function personalizar(){
   div = document.querySelector("#idiv");
   icone = document.querySelector("#iconex");
@@ -24,28 +24,28 @@ else{
 
 
 function laranja(){
-    body.style.background = "orange";
+  document.body.style.background = "orange";
     caica = document.querySelector("#caixaaa").style.border = "none";
     
 }
 
 function rosa(){
-  body.style.background = "pink";
+  document.body.style.background = "pink";
   caica = document.querySelector("#caixaaa").style.border = "none";
   
 }
 function marrom(){
-  body.style.background = "brown";
+  document.body.style.background = "brown";
   caica = document.querySelector("#caixaaa").style.border = "none";
   localStorage.estilo = "3";
 }
 function roxo(){
-  body.style.background = "purple";
+  document.body.style.background = "purple";
   caica = document.querySelector("#caixaaa").style.border = "none";
 
 }
 function branco(){
-  body.style.background = "white";
+  document.body.style.background = "white";
   caica = document.querySelector("#caixaaa").style.border = "1px solid black";
 }
 
